@@ -1,0 +1,78 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Conteneur pour le titre et la barre de recherche */
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 20px 0; /* Espacement vertical pour le titre et la barre de recherche */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 0;
+    font-size: 24px; /* Taille de la police du titre */
+}
+
+/* Barre de recherche avec une visibilité et un style améliorés */
+#searchInput {
+    display: block;
+    width: 60%; /* Largeur de la barre de recherche */
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #dddddd; /* Contour subtil */
+    border-radius: 20px; /* Bords arrondis plus prononcés */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075); /* Ombre intérieure subtile */
+    background-color: #fafafa; /* Couleur de fond légèrement différente */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Changement de style lorsque l'utilisateur clique dans la barre de recherche */
+#searchInput:focus {
+    border-color: #66afe9; /* Couleur de bordure plus visible lors de la sélection */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, .6);
+    background-color: #ffffff;
+}
+
+table {
+    width: 80%;
+    margin: auto; /* Centrage de la table */
+    border-collapse: collapse;
+    margin-top: 140px; /* Espace pour l'en-tête fixe */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+    border-radius: 8px;
+}
+
+td {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Ajout de transitions pour une interaction plus douce */
+th, td {
+    transition: background-color 0.3s ease;
+}
+
+th:hover, td:hover {
+    background-color: #f1f1f1;
+}
