@@ -15,6 +15,15 @@ body, html {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
     padding: 20px 0; /* Espacement vertical pour le titre et la barre de recherche */
+	
+    /* Inclure le logo dans le container */
+    background-image: url('../img/ITIC_logo_noir1.png'); /* Chemin relatif par rapport au fichier CSS */
+    background-repeat: no-repeat;
+    background-position: 20px center; /* Position */
+    background-size: 100px; /* Taille du logo */
+    padding-left: 150px; /* Ajustement pour éviter que le texte chevauche le logo */
+}
+
 }
 
 h1 {
@@ -77,12 +86,4 @@ th:hover, td:hover {
     background-color: #f1f1f1;
 }
 
-/* inclure le logo dans le header */
-.header-container {
-    background-image: url('../img/ITIC_logo_noir1.png'); /* Chemin relatif pour limage vis à vis du fichier CSS */
-    background-repeat: no-repeat;
-    background-position: 20px center; /* taille */
-    background-size: 100px; /* taille logo */
-    padding-left: 150px; /*  éviter que le texte chevauche le logo */
-}
 
