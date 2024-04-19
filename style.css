@@ -5,7 +5,6 @@ body, html {
     background-color: #f4f4f9;
 }
 
-/* Conteneur pour le titre et la barre de recherche */
 .header-container {
     position: fixed;
     top: 0;
@@ -14,7 +13,7 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 20px 0; /* Ajustez si nécessaire selon la hauteur de votre en-tête */
+    padding: 20px 0;
 }
 
 h1 {
@@ -24,7 +23,6 @@ h1 {
     font-size: 24px;
 }
 
-/* Barre de recherche centrée et stylisée */
 #searchInput {
     display: block;
     width: 60%;
@@ -44,12 +42,10 @@ h1 {
     background-color: #ffffff;
 }
 
-/* Styles de la table */
 table {
     width: 80%;
-    margin: auto;
+    margin: 140px auto 40px;
     border-collapse: collapse;
-    margin-top: 140px; /* cette valeur doit etre suffisante pour éviter le chevauchement avec l'en-tête */
 }
 
 th, td {
@@ -58,7 +54,6 @@ th, td {
     text-align: left;
     background-color: #ffffff;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
 }
 
 th {
@@ -67,4 +62,22 @@ th {
 
 th:hover, td:hover {
     background-color: #f1f1f1;
+}
+
+.download-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
 }
