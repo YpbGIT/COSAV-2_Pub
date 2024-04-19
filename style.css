@@ -1,4 +1,3 @@
-
 body, html {
     margin: 0;
     padding: 0;
@@ -10,80 +9,64 @@ body, html {
 .header-container {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 20px 0; /* Espacement vertical pour le titre et la barre de recherche */
-	
-    /* Inclure le logo dans le container */
-    background-image: url('../img/ITIC_logo_noir1.png'); /* Chemin relatif par rapport au fichier CSS */
-    background-repeat: no-repeat;
-    background-position: 20px center; /* Position */
-    background-size: 100px; /* Taille du logo */
-    padding-left: 150px; /* Ajustement pour éviter que le texte chevauche le logo */
+    padding: 20px 0;
 }
 
-}
-
+/* Titre h1 centré sans être décalé par le logo */
 h1 {
     text-align: center;
     color: #333;
     margin: 0;
-    font-size: 24px; /* Taille  police du titre */
+    font-size: 24px;
+    padding: 0 50px; /* Ajouter du padding des deux côtés pour garantir l'espace */
 }
 
-/* Barre de recherche avec une visibilité et style amélioré */
+/* Barre de recherche centrée et stylisée */
 #searchInput {
     display: block;
-    width: 60%; /* Largeur de la searchbar */
+    width: 60%;
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 16px;
-    border: 2px solid #dddddd; /* Contour subtil et léger */
-    border-radius: 20px; /* Bords arrondis plus prononcés */
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075); /* Ombre intérieure légeree */
-    background-color: #fafafa; /* Couleur de fond un peut diff */
+    border: 2px solid #dddddd;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    background-color: #fafafa;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Changement de stylequand le mec clique sur la barre de recherche */
 #searchInput:focus {
-    border-color: #66afe9; /* Couleur de bordure plus visible lors de la sélection */
+    border-color: #66afe9;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, .6);
     background-color: #ffffff;
 }
 
+/* Styles de la table */
 table {
     width: 80%;
-    margin: auto; /* Centrage de table */
+    margin: auto;
     border-collapse: collapse;
-    margin-top: 140px; /* Espace pouren-tête fixe */
+    margin-top: 100px; /* Ajuster pour l'en-tête fixe */
 }
 
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
 
 th {
     background-color: #eeeeee;
-    border-radius: 8px;
-}
-
-td {
-    background-color: #ffffff;
-    border-radius: 8px;
-}
-
-/* Ajout deffet de transitions soft  */
-th, td {
-    transition: background-color 0.3s ease;
 }
 
 th:hover, td:hover {
     background-color: #f1f1f1;
 }
-
-
