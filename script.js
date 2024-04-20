@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('./data.json')
+    fetch('./Chargeur_Json/data.json')
     .then(response => response.json())
     .then(data => {
         const tableBody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
