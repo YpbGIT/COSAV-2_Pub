@@ -7,8 +7,8 @@ body, html {
 
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between; /* Cela répartit les éléments de l'en-tête */
+    flex-direction: column; /* Organiser les éléments en colonne */
+    align-items: center; /* Centrer les éléments horizontalement */
     position: fixed;
     top: 0;
     left: 0;
@@ -16,38 +16,37 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
+    padding: 10px 0; /* Ajustement du padding */
 }
 
 .logo {
     max-width: 100px;
     height: auto;
-    margin-left: 20px;
+    position: absolute; /* Positionner le logo absolument */
+    left: 10px; /* Ajuster en fonction de la taille exacte du logo */
+    top: 10px;
 }
 
 .header-title {
-    flex-grow: 1;
-    text-align: center; /* Cela centre le titre dans la partie jaune */
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0; /* Ajuster l'espace autour du titre */
 }
 
 #searchInput {
     width: 50%;
-    margin-right: auto; /* Centre la barre de recherche à droite */
-    margin-left: auto; /* Centre la barre de recherche à gauche */
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
     border-radius: 20px;
     border: 2px solid #dddddd;
     background-color: #fafafa;
+    margin-top: 10px; /* Espacement au-dessus de la barre de recherche */
 }
 
 .data-selector-container {
-    margin-right: auto; /* Centre le sélecteur à droite */
-    margin-left: auto; /* Centre le sélecteur à gauche */
-    position: relative; /* Modifié pour être relatif au parent */
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex; /* Utilise flex pour centrer les éléments */
-    justify-content: center; /* Centre horizontalement dans le flex container */
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 
 #data-selector {
@@ -57,20 +56,20 @@ body, html {
 }
 
 .download-button {
-    position: absolute;
-    left: 50%;
-    bottom: -30px;
-    transform: translateX(-50%);
     padding: 10px 20px;
     background-color: #007bff;
     color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.2s;
+    position: absolute; /* Position absolue pour placer le bouton où vous voulez */
+    left: 10px; /* Ajuster selon la maquette */
+    bottom: 10px; /* Ajuster selon la maquette */
 }
 
 table {
     width: 90%;
-    margin: 180px auto 40px;
+    margin: 200px auto 40px; /* Ajustement pour l'entête */
     border-collapse: collapse;
 }
 
@@ -88,18 +87,16 @@ th {
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
-        align-items: center; /* Cela assure que les éléments sont centrés verticalement sur mobile */
+        align-items: center;
     }
 
-    #searchInput {
-        width: 80%;
+    .logo {
+        position: static; /* Le logo reprend un comportement normal sur les petits écrans */
+        margin-bottom: 10px; /* Espace ajouté en dessous du logo */
     }
 
-    .data-selector-container {
-        order: 3;
-    }
-
-    .download-button {
-        order: 4;
+    #searchInput, #data-selector, .download-button {
+        width: 80%; /* Ajustement de la largeur sur mobile */
+        margin: 10px auto; /* Centrage et espacement sur mobile */
     }
 }
