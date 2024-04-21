@@ -62,7 +62,7 @@ body, html {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.2s;
-    position: absolute; /* Position absolue pour placer le bouton où vous voulez */
+    position: absolute; /* Position absolue pour placer le bouton */
     left: 10px; /* Ajuster selon la maquette */
     bottom: 10px; /* Ajuster selon la maquette */
 }
