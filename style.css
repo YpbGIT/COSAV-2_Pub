@@ -7,63 +7,57 @@ body, html {
 
 .header-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0; /* Assure que l'entête ne dépasse pas la largeur de l'écran */
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-}
-
-.logo-container {
-    align-self: flex-start; /* Position à gauche */
-    padding: 10px; /* Espace autour du logo */
+    padding: 10px;
 }
 
 .logo {
-    max-width: 100px;
-    max-height: 80px;
-    width: auto;
-    height: auto;
+    width: auto; /* S'adapte à la hauteur définie */
+    height: 80px; /* Hauteur fixe du logo pour qu'il ne déforme pas l'entête */
+    margin-right: 10px; /* Espace entre le logo et le titre */
 }
 
-.header-title {
-    margin: 0;
+h1 {
+    flex-grow: 1; /* Permet au titre de prendre l'espace disponible */
+    text-align: center; /* Centre le titre */
+    margin: 0 20px; /* Espace autour du titre */
     font-size: 24px;
     color: #333;
 }
 
 #searchInput {
-    margin-top: 10px;
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #dddddd;
     border-radius: 20px;
     background-color: #fafafa;
-    width: calc(100% - 240px); /* Largeur ajustée pour tenir compte du padding et des boutons */
-    max-width: 600px; /* Largeur maximale pour éviter que la barre ne soit trop longue */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
 }
 
 #data-selector {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-left: 20px;
+    margin-left: 20px; /* Espace entre la barre de recherche et le sélecteur */
 }
 
 .download-button {
+    margin-left: 20px; /* Espace entre le sélecteur et le bouton */
     padding: 10px 20px;
-    margin-top: 10px;
     background-color: #007bff;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.2s;
-    align-self: flex-end; /* Position à droite */
 }
 
 .download-button:hover {
@@ -72,7 +66,7 @@ body, html {
 
 table {
     width: 90%;
-    margin: 180px auto 40px; /* Marge pour éviter le chevauchement avec l'en-tête */
+    margin: 160px auto 40px; /* Augmentation de la marge supérieure pour éviter le chevauchement avec l'entête */
     border-collapse: collapse;
 }
 
@@ -90,15 +84,33 @@ th {
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
-    }
-
-    #searchInput, #data-selector, .download-button {
-        width: 90%;
-        margin: 10px 0;
+        padding: 20px;
     }
 
     .logo {
-        max-width: 80px;
-        max-height: 60px;
+        height: 50px; /* Réduction de la hauteur du logo sur les petits écrans */
+        margin-bottom: 10px; /* Espace sous le logo */
+    }
+
+    h1 {
+        font-size: 20px; /* Réduction de la taille de police pour le titre sur les petits écrans */
+        margin: 10px 0;
+    }
+
+    .search-container,
+    .download-button {
+        width: 100%; /* Les éléments prennent toute la largeur disponible */
+        margin-bottom: 10px; /* Espace entre les éléments */
+    }
+
+    #searchInput,
+    #data-selector {
+        width: 100%; /* Largeur complète pour la barre de recherche et le sélecteur */
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%; /* La table prend toute la largeur disponible sur les petits écrans */
+        margin: 140px auto 20px;
     }
 }
