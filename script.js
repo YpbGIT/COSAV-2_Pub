@@ -1,43 +1,60 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById('dataSelector').addEventListener('change', function() {
-        loadJsonData(this.value);
-    });
+    const dataSelect = document.getElementById('dataSelect');
+    dataSelect.addEventListener('change', loadSelectedData);
 
-    function loadJsonData(jsonFile) {
-        fetch(jsonFile)
+    // Charge initialement le premier jeu de données
+    loadSelectedData();
+
+    function loadSelectedData() {
+        const selectedFile = dataSelect.value;
+        const filePath = './Chargeur_Json/' + selectedFile;
+        fetch(filePath)
         .then(response => response.json())
         .then(data => {
-            const tableBody = document.getElementById('dataTable');
-            tableBody.innerHTML = ''; // Clear the table first
-            data.forEach(item => {
+            const tableHead = document.getElementById('tableHead');
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = ''; // Vider le corps du tableau
+            tableHead.innerHTML = ''; // Vider les entêtes du tableau
+
+            // Remplir les entêtes de tableau
+            if(data.length > 0) {
+                const headers = Object.keys(data[0]);
+                headers.forEach(header => {
+                    let th = document.createElement('th');
+                    th.textContent = header;
+                    tableHead.appendChild(th);
+                });
+            }
+
+            // Remplir les lignes de données
+            data.forEach(rowData => {
                 const row = tableBody.insertRow();
-                Object.keys(item).forEach(key => {
+                Object.values(rowData).forEach(text => {
                     const cell = row.insertCell();
-                    cell.textContent = item[key];
+                    cell.textContent = text;
                 });
             });
         })
-        .catch(error => console.error('Error loading the data:', error));
+        .catch(error => {
+            console.error('Erreur lors du chargement des données:', error);
+            tableBody.innerHTML = '<tr><td colspan="100%">Erreur lors du chargement des données.</td></tr>';
+        });
     }
 
     window.filterData = function() {
         const input = document.getElementById('searchInput');
         const filter = input.value.toUpperCase();
-        const tr = document.getElementById('dataTable').getElementsByTagName('tr');
+        const tr = tableBody.getElementsByTagName('tr');
 
         for (let i = 0; i < tr.length; i++) {
-            let visible = false;
+            tr[i].style.display = "none";
             const td = tr[i].getElementsByTagName('td');
             for (let j = 0; j < td.length; j++) {
                 if (td[j].textContent.toUpperCase().indexOf(filter) > -1) {
-                    visible = true;
+                    tr[i].style.display = "";
                     break;
                 }
             }
-            tr[i].style.display = visible ? "" : "none";
         }
     };
-
-    // Load initial data set
-    loadJsonData('Chargeur_Json/Data_1.json'); // Load the first dataset by default
 });

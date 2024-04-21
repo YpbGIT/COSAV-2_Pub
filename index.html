@@ -2,32 +2,35 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>COSAV-1 Application</title>
+    <title>COSAV-1: Visualisation des Données</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header-container">
         <h1>COSAV-1: Visualisation des Données</h1>
-        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Rechercher...">
-        <select id="dataSelector">
-            <option value="Chargeur_Json/Data_1.json">Data Set 1</option>
-            <option value="Chargeur_Json/Data_2.json">Data Set 2</option>
-            <option value="Chargeur_Json/Data_3.json">Data Set 3</option>
+        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Recherche...">
+        <select id="dataSelect">
+            <option value="Data_1.json">Data Set 1</option>
+            <option value="Data_2.json">Data Set 2</option>
+            <option value="Data_3.json">Data Set 3</option>
         </select>
     </div>
+
     <table>
         <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Description</th>
-                <th>Date</th>
-                <th>Montant</th>
+            <tr id="tableHead">
+                <!-- Les en-têtes de colonnes seront injectées ici -->
             </tr>
         </thead>
-        <tbody id="dataTable">
-            <!-- Les données seront injectées ici -->
+        <tbody id="tableBody">
+            <!-- Les données du tableau seront injectées ici -->
         </tbody>
     </table>
+
+    <div class="download-container">
+        <a href="#" id="downloadLink" class="download-button">Télécharger les données</a>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
