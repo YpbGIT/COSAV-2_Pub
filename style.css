@@ -23,7 +23,7 @@ h1 {
     font-size: 24px;
 }
 
-#searchInput, #data-selector {
+#searchInput {
     display: block;
     width: 60%;
     margin: 10px auto;
@@ -36,7 +36,7 @@ h1 {
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#searchInput:focus, #data-selector:focus {
+#searchInput:focus {
     border-color: #66afe9;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, .6);
     background-color: #ffffff;
@@ -64,20 +64,11 @@ th:hover, td:hover {
     background-color: #f1f1f1;
 }
 
-.download-container {
-    text-align: center;
-    margin: 20px;
-}
-
-.download-button {
+#dataSelector {
+    width: 60%;
+    margin: 10px auto;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.2s ease-in-out;
-}
-
-.download-button:hover {
-    background-color: #0056b3;
+    border-radius: 20px;
+    font-size: 16px;
+    display: block;
 }

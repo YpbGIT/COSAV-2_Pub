@@ -1,0 +1,604 @@
+[
+ {
+  "Identité Acteur": "Dominique Roux",
+  "Statut": "Directeur de l'infrastructure de recherche Métopes ",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "MRSH Caen, directeur de l’IR Métope",
+  "Projet(s) porté(s)": "FAIREST",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Directeur de l'infrastructure de recherche Métopes"
+ },
+ {
+  "Identité Acteur": "Raphaël Tournoy",
+  "Statut": "Ingénieur logiciel ",
+  "Spécialité ": "Informatique ,Documentation ",
+  "Affiliations": "CCSD - Centre pour la communication scientifique directe",
+  "Projet(s) porté(s)": "HALOWIN,  nEpHAL+",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Ingénieur logiciel au CCSD"
+ },
+ {
+  "Identité Acteur": "Stéphane Pouyllau",
+  "Statut": "Responsable du HN Lab · CNRS, Directeur adjoint d'Huma-Num",
+  "Spécialité ": "humanités numériques et informatisation des données",
+  "Affiliations": "Huma-Num, CNRS",
+  "Projet(s) porté(s)": "HNSO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Acteur sur ISIDORE et NAKALA"
+ },
+ {
+  "Identité Acteur": "Marie Isnart-Pellen",
+  "Statut": "Directrice du Centre pour l'édition électronique ouverte - OpenEdition Center",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Aix-Marseille Université, CNRS , Open Edition Center",
+  "Projet(s) porté(s)": "I-FAIR IR",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Directrice du CCSD"
+ },
+ {
+  "Identité Acteur": "Yvan Le Bras",
+  "Statut": "Chercheur CESCO",
+  "Spécialité ": "Eco-informatique",
+  "Affiliations": "Centre d'Écologie et des Sciences de la Conservation (CESCO) (MNHN)",
+  "Projet(s) porté(s)": "OpenMetaPaper",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Sandra Guigonis",
+  "Statut": "Directrice adjointe éditoriale at OpenEdition",
+  "Spécialité ": "Édition ",
+  "Affiliations": "CLEO - Open Edition Center",
+  "Projet(s) porté(s)": "DADAO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Directrice adjointe éditoriale à Open Edition"
+ },
+ {
+  "Identité Acteur": "Evelyne Miot",
+  "Statut": "Directrice de recherche au CNRS Institut Fourier",
+  "Spécialité ": "Mathématiques",
+  "Affiliations": "Institut Fourier , CNRS - Centre national de la recherche scientifique, MathDoc",
+  "Projet(s) porté(s)": "DÉMOS",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Pierre Senellart",
+  "Statut": "Enseignant à l'ENS",
+  "Spécialité ": "Informatique ",
+  "Affiliations": "ENS  Université PSL",
+  "Projet(s) porté(s)": "Dissemin",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Alexandre Gefen",
+  "Statut": "Directeur de Recherche CNRS",
+  "Spécialité ": "Littérature ",
+  "Affiliations": "CNRS- Université sorbonne Nouvelle",
+  "Projet(s) porté(s)": "FABULA2020",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Marie-Madeleine Geroudet",
+  "Statut": "Responsable du Département Services à la recherche et aux chercheurs chez SCD",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "Université de Lille",
+  "Projet(s) porté(s)": "ORA-HdF",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Denis Bourguet",
+  "Statut": "Directeur de recherche ,  INRA",
+  "Spécialité ": "Biologie ",
+  "Affiliations": "INRAE",
+  "Projet(s) porté(s)": "Peer Community in",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jean-Luc de Ochandiano",
+  "Statut": "Directeur éditorial des Presses universitaires Blaise Pascal",
+  "Spécialité ": "Édition ",
+  "Affiliations": "directeur éditorial des Presses universitaires Blaise-Pascal.",
+  "Projet(s) porté(s)": "REPÈRES , HORTUS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jean Duplessis Kergomard",
+  "Affiliations": "Aix-Marseille Université? CNRS",
+  "Projet(s) porté(s)": "archA",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jean-Yves Chapron",
+  "Statut": "Directeur service des publications",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Académie des sciences",
+  "Projet(s) porté(s)": "CR Académie des sciences",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Janis Monchet",
+  "Statut": "Responsable des relations internationales et de l'ingénierie de projets",
+  "Spécialité ": "Relations internationales",
+  "Affiliations": "Maison Européenne des Sciences de l'Homme et de la Société (MESHS)",
+  "Projet(s) porté(s)": "DH-Lidoa",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Laurence Benichou",
+  "Statut": "Responsable d'édition",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Museum national d'histoire naturelle",
+  "Projet(s) porté(s)": "MetoTaxa",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Patrick Bertuzzi",
+  "Statut": "directeur de l'unité Agroclim, chercheur INRAE",
+  "Spécialité ": "Agronomie",
+  "Affiliations": "INRAE",
+  "Projet(s) porté(s)": "OPEN-STICS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Aurélien Mounier",
+  "Statut": "co-responsable de l'équipe PaleoFed MNHN , Chercheur ",
+  "Spécialité ": "Paléoanthropologie",
+  "Affiliations": "Museum national d'histoire naturelle",
+  "Projet(s) porté(s)": "PA-BMSAP",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Sandrine Avril",
+  "Statut": "Secrétaire de rédaction de la revue Philosophia Scientiæ ",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Secrétaire de rédaction de la revue Philosophia Scientiæ ",
+  "Projet(s) porté(s)": "PhSc-SO-2020",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Thierry Horsin",
+  "Statut": "Enseignant chercheur",
+  "Spécialité ": "Mathématiques",
+  "Affiliations": " CNAM Conversation National des arts et des métiers",
+  "Projet(s) porté(s)": "S2O\/SMAI",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jean-Sébastien Caux",
+  "Statut": "Professeur des universités ",
+  "Spécialité ": "Physique ",
+  "Affiliations": "University of Amsterdam",
+  "Projet(s) porté(s)": "SciPost-CX , COOPÈRES",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Emmanuelle Bryas",
+  "Statut": "Ingénieur de recherche, Chargée des ressources et d'ingénierie documentaires ",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "INRAP - Institut national de recherches archéologiques préventives",
+  "Projet(s) porté(s)": "ARCHES",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Damien Poivet",
+  "Statut": "Chef de projet Canal-U",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "FMSH - Fondation Maison des Sciences de l'homme",
+  "Projet(s) porté(s)": "Canal-U Science Ouverte sur les Vidéos",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Lylette Lacote-Gabrysiak",
+  "Statut": "directrice des Edul (Editions de l'Université de Lorraine)",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Université de Lorraine",
+  "Projet(s) porté(s)": "ÉdulOA",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Christine Laurière",
+  "Statut": "Enseignante Chercheuse ,Chargée de recherche au CNRS",
+  "Spécialité ": "Anthropologie",
+  "Affiliations": "CNRS - Centre national de la recherche scientifique",
+  "Projet(s) porté(s)": "FORBEROSE",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Olivier Labbe",
+  "Affiliations": "UGA - Université Grenoble Alpes",
+  "Projet(s) porté(s)": "Geodesic , NEXTGEN",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Sophie Fotiadi",
+  "Statut": "Coordinatrice du réseau Mir@bel",
+  "Spécialité ": "Édition ",
+  "Affiliations": "IEP de Lyon - Sciences Po Lyon",
+  "Projet(s) porté(s)": "Mir@bel2022 , Mir@AO",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Philippe Prévost",
+  "Statut": "Responsable des coopérations numériques",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "Alliance Agreenium",
+  "Projet(s) porté(s)": "OpenAgroécologie",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jérôme Poumeyrol",
+  "Statut": "Responsable service soutien à la recherche- Direction de la documentation ",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "UBx - Université de Bordeaux",
+  "Projet(s) porté(s)": "OUJ 2024",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Laure Himy-Piéri",
+  "Statut": "Maître de conférence ",
+  "Spécialité ": "Stylistique ",
+  "Affiliations": "UNICAEN - Université de Caen Normandie",
+  "Projet(s) porté(s)": "PRESS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Sébastien Mazzarese",
+  "Statut": "Ingénieur IST",
+  "Spécialité ": "information scientifique et technique",
+  "Affiliations": "Persée,ENS de Lyon - École normale supérieure de Lyon",
+  "Projet(s) porté(s)": "RAPIDO",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Nicolas Rougier",
+  "Statut": "Directeur de recherche",
+  "Spécialité ": "Neurosciences",
+  "Affiliations": "Inria - Institut national de recherche en informatique et en automatique",
+  "Projet(s) porté(s)": "ReScience C",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Yves Picard",
+  "Affiliations": "PUR - Presses universitaires de Rennes,Rennes II - Université Rennes 2",
+  "Projet(s) porté(s)": "SO PUR ,  NUM SO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Bastien Miraucourt",
+  "Statut": "Responsable d'édition",
+  "Spécialité ": "Édition ",
+  "Affiliations": "CNRS - Centre national de la recherche scientifique",
+  "Projet(s) porté(s)": "SOEA",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Michael Heap",
+  "Statut": "Maître de conférences",
+  "Spécialité ": "Géologie",
+  "Affiliations": "UNISTRA - Université de Strasbourg",
+  "Projet(s) porté(s)": "Volcanica",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Sibylle Kriegel",
+  "Statut": "Enseignante chercheuse ",
+  "Spécialité ": "Lettres Modernes",
+  "Affiliations": "AMU - Aix-Marseille Université",
+  "Projet(s) porté(s)": "E-Études Créoles",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Étienne Ghys",
+  "Statut": "secrétaire perpétuel de l'Académie des sciences , Directeur de recherche émérite CNRS",
+  "Spécialité ": "Mathématiques",
+  "Affiliations": "Académie des Sciences, ENS Lyon",
+  "Projet(s) porté(s)": "MarginaliAS",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Wanda Romanowski",
+  "Statut": "Responsable du service des éditions",
+  "Spécialité ": "Édition ",
+  "Affiliations": "INED - Institut national d'études démographiques",
+  "Projet(s) porté(s)": "Mémoires européennes du Goulag",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Albéric Girard",
+  "Statut": "Éditeur ",
+  "Spécialité ": "Édition ",
+  "Affiliations": "MNHN - Muséum national d'histoire naturelle",
+  "Projet(s) porté(s)": "MetoSTeM",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Jean Arbeille",
+  "Statut": "Directeur exécutif",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Editions QUAE",
+  "Projet(s) porté(s)": "OPEN-AUDIOLIVRES",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "Non"
+ },
+ {
+  "Identité Acteur": "Wenceslas Lizé",
+  "Statut": "Sociologue ",
+  "Spécialité ": "Sociologie ",
+  "Affiliations": "Université de Poitiers",
+  "Projet(s) porté(s)": "OPEN-SHS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Romain Le Nezet",
+  "Statut": "Dir-adjoint Pôle des bibliothèques",
+  "Spécialité ": "Documentation ",
+  "Affiliations": "Université de Paris",
+  "Projet(s) porté(s)": "PAYS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Pierre-Emmanuel Chaput",
+  "Statut": "Maître de conférence ",
+  "Spécialité ": "Mathématiques, Géométrie",
+  "Affiliations": "Institut Elie Cartan De Lorraine, réseau édition Université de Lorraine",
+  "Projet(s) porté(s)": "PEREPIGA",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "réseau édition UL Science ouverte"
+ },
+ {
+  "Identité Acteur": "Jacques Walter",
+  "Statut": "directeur du Centre de recherche sur les médiations",
+  "Spécialité ": "Sociologie, Communication",
+  "Affiliations": "Université de Lorraine",
+  "Projet(s) porté(s)": "Ques2comSO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Fabien Durand",
+  "Statut": "Docteur en mathématiques, Président de la société de mathématiques",
+  "Spécialité ": "Mathématiques",
+  "Affiliations": "SMF - Société mathématique de France",
+  "Projet(s) porté(s)": "SOCL",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Véronique Chankowski",
+  "Statut": "directrice de l'École Française d'Athènes",
+  "Spécialité ": "Histoire ",
+  "Affiliations": "EFA - École française d'Athènes",
+  "Projet(s) porté(s)": "THOLOS ,  OPUS",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Michel Bertrand",
+  "Statut": "Professeur des Universités ",
+  "Spécialité ": "Histoire ",
+  "Affiliations": "Casa de Velázquez de Madrid",
+  "Projet(s) porté(s)": "TOPEDITOR",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Ghislain Chave",
+  "Statut": "Ingénieur de recherche",
+  "Spécialité ": "Édition,Presses universitaires",
+  "Affiliations": "UCA - Université Côte d'Azur",
+  "Projet(s) porté(s)": "PEARS",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Pierre Ocvirk",
+  "Statut": "Astronome-adjoint",
+  "Spécialité ": "Astronomie ",
+  "Affiliations": "UNISTRA - Université de Strasbourg",
+  "Projet(s) porté(s)": "CDS-ODAS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Emilie Cornillaux",
+  "Statut": "Administratrice ",
+  "Spécialité ": "Information documentation",
+  "Affiliations": "OPENEDITION CENTER - UAR 2504 CNRS, AMU, EHESS, Université d’Avignon",
+  "Projet(s) porté(s)": "QUAMÉO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Administratrice des systèmes d'information à Open Édition "
+ },
+ {
+  "Identité Acteur": "Mathieu Schneider",
+  "Statut": "maître de conférences HDR",
+  "Spécialité ": "Musicologie",
+  "Affiliations": "UNISTRA - Université de Strasbourg",
+  "Projet(s) porté(s)": "HORTUS",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Daniel Battesti",
+  "Statut": "Éditeur",
+  "Spécialité ": "Édition ",
+  "Affiliations": "Université de Franche-Comté, CNRS",
+  "Projet(s) porté(s)": "PEPSO-BFC",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Juliette Hueber",
+  "Statut": "Avocate, Éditrice ",
+  "Spécialité ": "Édition ",
+  "Affiliations": "CNRS - Centre national de la recherche scientifique",
+  "Projet(s) porté(s)": "PerVisum",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Nicolas Thély",
+  "Statut": "Professeur des universités",
+  "Spécialité ": "Arts, esthétique et humanités numériques",
+  "Affiliations": "Rennes II - Université Rennes 2",
+  "Projet(s) porté(s)": "PRGO, REGOSO",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Laurent Jalabert",
+  "Statut": "Maître de conférence, enseignant chercheur",
+  "Spécialité ": "Histoire ",
+  "Affiliations": "Association d'historiens de l'Est, Université  Lorraine",
+  "Projet(s) porté(s)": "AEnumonline",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Céline Barthonnat",
+  "Statut": "Éditrice",
+  "Spécialité ": "Édition ",
+  "Affiliations": "CAK - Centre Alexandre Koyré,CCSD - Centre pour la communication scientifique directe",
+  "Projet(s) porté(s)": "Édisciences",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "Éditrice au CCSD"
+ },
+ {
+  "Identité Acteur": "Damien De Blic",
+  "Statut": "Maître de conférence ",
+  "Spécialité ": "Science politique ",
+  "Affiliations": "Université Paris-Sorbonne , CNRS",
+  "Projet(s) porté(s)": "EPISUD-PUV",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Anaïs Lamesa",
+  "Statut": "chercheuse associée",
+  "Spécialité ": "Histoire, Archéologie ",
+  "Affiliations": "CNRS - Centre national de la recherche scientifique",
+  "Projet(s) porté(s)": "OpenIFEA",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ },
+ {
+  "Identité Acteur": "Barbara Palli",
+  "Statut": "Maître de conférence ",
+  "Affiliations": "Institut François Gény, réseau édition Université de Lorraine",
+  "Projet(s) porté(s)": "RPN",
+  "Affiliation à des institutions porteuses d'autres projets": "oui",
+  "Affiliation à des institutions partenaires d'autres projets ": "oui",
+  "Affiliations à des distributeurs de solution ": "oui",
+  "Statut chez le distributeur ": "réseau édition UL Science ouverte"
+ },
+ {
+  "Identité Acteur": "Sophie Duthion",
+  "Statut": "Éditrice",
+  "Spécialité ": "Édition ",
+  "Affiliations": "ifpo - Institut français du Proche-Orient",
+  "Projet(s) porté(s)": "Sharqiyat",
+  "Affiliation à des institutions porteuses d'autres projets": "non",
+  "Affiliation à des institutions partenaires d'autres projets ": "non",
+  "Affiliations à des distributeurs de solution ": "non"
+ }
+]

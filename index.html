@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>COSAV-1 Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <select id="menu">
-        <option value="data.json">Default Data</option>
-        <option value="Focus_acteur_feuille.json">Focus Acteur Data</option>
-        <option value="Data_FNSO_feuille.json">Data FNSO</option>
-        <option value="Focus_Institution_Feuille.json">Focus Institution</option>
-    </select>
-    <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Search for names..">
-    <table id="dataTable">
+    <div class="header-container">
+        <h1>COSAV-1: Visualisation des Données</h1>
+        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Rechercher...">
+        <select id="dataSelector">
+            <option value="Chargeur_Json/Data_1.json">Data Set 1</option>
+            <option value="Chargeur_Json/Data_2.json">Data Set 2</option>
+            <option value="Chargeur_Json/Data_3.json">Data Set 3</option>
+        </select>
+    </div>
+    <table>
         <thead>
-            <tr><th>Name</th><th>Email</th><th>Country</th></tr>
+            <tr>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Montant</th>
+            </tr>
         </thead>
-        <tbody>
-            <!-- Data will be loaded here -->
+        <tbody id="dataTable">
+            <!-- Les données seront injectées ici -->
         </tbody>
     </table>
     <script src="script.js"></script>

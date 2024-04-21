@@ -1,0 +1,440 @@
+[
+ {
+  "Institutions": "IR METOPES - MRSH CAEN",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Documentation ",
+  "Projets porté(s)": "FAIREST",
+  "NB": 1,
+  "Partenaire des projets ": "I-FAIR IR, DADAO, REPÈRES, MetoTaxa, PhSc-SO-2020, ARCHES, PRESS, SO PUR, MetoSTeM, COOPÈRES, HORTUS, PerVisum, SOEA",
+  "NB": 13
+ },
+ {
+  "Institutions": "CCSD - Centre pour la communication scientifique directe",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "IST , Communication savante ",
+  "Projets porté(s)": "HALOWIN",
+  "NB": 1,
+  "Partenaire des projets ": "Peer Community In ",
+  "NB": 1
+ },
+ {
+  "Institutions": "Huma-Num",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Lettres, SHS,  Humanités Numériques ",
+  "Projets porté(s)": "HNSO",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "CLEO - Open Edition Center",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Documentation, Édition, Presse",
+  "Projets porté(s)": "I-FAIR IR , DADAO",
+  "NB": 2,
+  "Partenaire des projets ": "FAIREST, ORA-HdF, REPÈRES, PRESS, SO PUR, TOPEDITOR, COOPÈRES, HORTUS, PerVisum, Mir@bel2022, SOEA; QUAMÉO",
+  "NB": 12
+ },
+ {
+  "Institutions": "ENS PSL - École normale supérieure PSL",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Lettres et Sciences",
+  "Projets porté(s)": "Dissemin",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Lille",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "ORA-HdF",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Centre INRAE Occitanie-Montpellier",
+  "Type d'institution": "public",
+  "Périmètre disciplinaire ": "Agronomie ",
+  "Projets porté(s)": "Peer Community in",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université Jean Moulin - Lyon 3",
+  "Type d'institution": "Public",
+  "Projets porté(s)": "REPÈRES",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Société Française d'Acoustique",
+  "Type d'institution": "Association ",
+  "Périmètre disciplinaire ": "Accoustique ",
+  "Projets porté(s)": "archA",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Académie des Sciences\n",
+  "Type d'institution": "Société Savante",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "CR Académie des sciences, MarginaliAS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "MESHS - Maison européenne des sciences de l’homme et de la société",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Sciences humaines et sociales ",
+  "Projets porté(s)": "DH-Lidoa",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Muséum national d'histoire naturelle",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Sciences de la vie et de la terre, Anthropologie",
+  "Projets porté(s)": "MetoTaxa ,MetoSTeM, OpenMetaPaper",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "Centre INRAE Centre-siège",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Agronomie ",
+  "Projets porté(s)": "OPEN-STICS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Société d'anthropologie de Paris",
+  "Type d'institution": "Société Savante",
+  "Périmètre disciplinaire ": "Anthropologie ",
+  "Projets porté(s)": "PA-BMSAP",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "SMAI - Société de mathématiques appliquées et industrielles",
+  "Type d'institution": "Société Savante",
+  "Périmètre disciplinaire ": "Mathématiques",
+  "Projets porté(s)": "S2O\/SMAI",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Institut national de recherches archéologiques préventives (Inrap)",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Archéologie ",
+  "Projets porté(s)": "ARCHES",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Fondation Maison des sciences de l'homme",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Sciences humaines et sociales ",
+  "Projets porté(s)": "Canal-U Science Ouverte sur les Vidéos",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Cergy Paris Université",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "FORBEROSE",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "INRAE",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Agronomie ",
+  "Projets porté(s)": "OpenAgroécologie",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Bordeaux",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "OUJ 2024",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Caen Normandie",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "PRESS",
+  "NB": 1,
+  "Partenaire des projets ": "DADAO, PRESS",
+  "NB": 1
+ },
+ {
+  "Institutions": "ENS de Lyon",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "SHS et sciences fondamentales et expérimentales",
+  "Projets porté(s)": "RAPIDO",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Inria",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "sciences et technologies du numérique",
+  "Projets porté(s)": "ReScience C",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "SAIC Presses universitaires de Rennes",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Presse",
+  "Projets porté(s)": "SO PUR",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "CNRS (UAR 3336 Afrique au Sud du Sahara ,Mathdoc (x2), UMR THALIM )",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "organisme public de recherche",
+  "Projets porté(s)": "SOEA, Geodesic, FABULA2020, DÉMOS",
+  "NB": 2,
+  "Partenaire des projets ": "CR Académie des sciences ( Mathdoc) MarginaliAS ( Mathdoc) ",
+  "NB": 2
+ },
+ {
+  "Institutions": "Institut national d’études démographiques",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Démographie ",
+  "Projets porté(s)": "Mémoires européennes du Goulag",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Éditions Quæ",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Édition ",
+  "Projets porté(s)": "OPEN-AUDIOLIVRES",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université Paris Lumières",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "OPEN-SHS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Paris ",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "PAYS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Association Epiga",
+  "Type d'institution": "Association ",
+  "Périmètre disciplinaire ": "Géométrie ",
+  "Projets porté(s)": "PEREPIGA",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Société Mathématique de France",
+  "Type d'institution": "Association ",
+  "Périmètre disciplinaire ": "Mathématiques",
+  "Projets porté(s)": "SOCL",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "École française d'Athènes",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Institut de recherche archéologique",
+  "Projets porté(s)": "THOLOS",
+  "NB": 1,
+  "Partenaire des projets ": "OUJ 2024, Ques2comSO, Aenumonline",
+  "NB": 3
+ },
+ {
+  "Institutions": "Casa de Velázquez",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Études hispaniques ",
+  "Projets porté(s)": "TOPEDITOR",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université Côte d’Azur",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "PEARS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Strasbourg (Observatoire astronomique de Strasbourg et Institut Terre et Environnement de Strasbourg )",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "CDS-ODAS , Volcanica ",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "AMU - Aix-Marseille Université",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "QUAMÉO, E-Études Créoles, DADAO",
+  "NB": 3,
+  "NB": 0
+ },
+ {
+  "Institutions": "Lyon III - Université Jean Moulin - Lyon 3",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "COOPÈRES",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "MISHA - Maison Interuniverstaire des Sciences de l’Homme – Alsace",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Sciences humaines et sociales ",
+  "Projets porté(s)": "HORTUS",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "IEP de Lyon - Sciences Po Lyon",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Sciences Politiques ",
+  "Projets porté(s)": "Mir@AO, Mir@bel2022",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "Délégation Alpes du CNRS",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "organisme public de recherche",
+  "Projets porté(s)": "NEXTGEN",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "uB - Université de Bourgogne",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "PEPSO-BFC",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "INHA - Institut national d'histoire de l'art",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Arts",
+  "Projets porté(s)": "PerVisum",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Rennes II - Université Rennes 2",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Faculté de Lettres ",
+  "Projets porté(s)": "PRGO, REGOSO",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "Association d'historiens de l'Est",
+  "Type d'institution": "Association ",
+  "Périmètre disciplinaire ": "Histoire ",
+  "Projets porté(s)": "AEnumonline",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "CCSD - Centre pour la communication scientifique directe",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Information Documentation, IST",
+  "Projets porté(s)": "Édisciences , nEpHAL+",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "PUV - Presses universitaires de Vincennes",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Presse",
+  "Projets porté(s)": "EPISUD-PUV",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "PUR - Presses universitaires de Rennes",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Presse",
+  "Projets porté(s)": "NUM SO",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "IFEA - Institut français d'études anatoliennes - Georges Dumezil",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Études Anatoliennes ",
+  "Projets porté(s)": "OpenIFEA",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Université de Lorraine",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Pluridisciplinaire",
+  "Projets porté(s)": "RPN, Ques2comSO, ÉdulOA, PhSc-SO-2020",
+  "NB": 4,
+  "Partenaire des projets ": "OUJ 2024, Ques2comSO, Aenumonline",
+  "NB": 3
+ },
+ {
+  "Institutions": "Stichting SciPost",
+  "Type d'institution": "Fondation",
+  "Périmètre disciplinaire ": "Publication scientifique électronique",
+  "Projets porté(s)": "SciPost-ElDia, SciPost-CX",
+  "NB": 2,
+  "NB": 0
+ },
+ {
+  "Institutions": "ifpo - Institut français du Proche-Orient",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Civilisations du Proche Orient ",
+  "Projets porté(s)": "Sharqiyat",
+  "NB": 1,
+  "NB": 0
+ },
+ {
+  "Institutions": "Cirad",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "Agronomie ",
+  "NB": 0,
+  "Partenaire des projets ": "OPEN-STICS, OpenAgroécologie",
+  "NB": 2
+ },
+ {
+  "Institutions": "Éditions Quæ",
+  "Type d'institution": "Public",
+  "Périmètre disciplinaire ": "maison d'édition scientifique et technique ",
+  "NB": 0,
+  "Partenaire des projets ": "OPEN-STICS, OpenAgroécologie",
+  "NB": 2
+ },
+ {
+  "Institutions": "Cairn.info",
+  "Type d'institution": "Privé ",
+  "Périmètre disciplinaire ": "portail web francophone consacré aux sciences humaines et sociales",
+  "NB": 0,
+  "Partenaire des projets ": "PhSc-SO-2020, Mir@bel2022",
+  "NB": 2
+ }
+]

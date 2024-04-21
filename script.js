@@ -1,34 +1,29 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const menu = document.getElementById('menu');
-    const tableBody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
-
-    function loadData(jsonFile) {
-        fetch(jsonFile)
-            .then(response => response.json())
-            .then(data => {
-                tableBody.innerHTML = ''; // Clear existing rows
-                data.forEach(item => {
-                    const row = tableBody.insertRow();
-                    Object.keys(item).forEach(key => {
-                        const cell = row.insertCell();
-                        cell.textContent = item[key];
-                    });
-                });
-            })
-            .catch(error => console.error('Error loading the data:', error));
-    }
-
-    menu.addEventListener('change', function() {
-        loadData(this.value);
+    document.getElementById('dataSelector').addEventListener('change', function() {
+        loadJsonData(this.value);
     });
 
-    // Initialize with the first option
-    loadData(menu.value);
-    
+    function loadJsonData(jsonFile) {
+        fetch(jsonFile)
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.getElementById('dataTable');
+            tableBody.innerHTML = ''; // Clear the table first
+            data.forEach(item => {
+                const row = tableBody.insertRow();
+                Object.keys(item).forEach(key => {
+                    const cell = row.insertCell();
+                    cell.textContent = item[key];
+                });
+            });
+        })
+        .catch(error => console.error('Error loading the data:', error));
+    }
+
     window.filterData = function() {
         const input = document.getElementById('searchInput');
         const filter = input.value.toUpperCase();
-        const tr = tableBody.getElementsByTagName('tr');
+        const tr = document.getElementById('dataTable').getElementsByTagName('tr');
 
         for (let i = 0; i < tr.length; i++) {
             let visible = false;
@@ -42,4 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             tr[i].style.display = visible ? "" : "none";
         }
     };
+
+    // Load initial data set
+    loadJsonData('Chargeur_Json/Data_1.json'); // Load the first dataset by default
 });
