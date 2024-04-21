@@ -8,7 +8,7 @@ body, html {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Centré le contenu */
     position: fixed;
     top: 0;
     left: 0;
@@ -16,52 +16,47 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 10px 20px;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+    position: absolute; /* Position absolue pour ne pas influencer les autres éléments */
+    left: 10px; /* Espace depuis la gauche de la page */
+    top: 10px; /* Espace depuis le haut de la page */
 }
 
 .logo {
-    max-width: 150px;
-    height: auto;
-    margin-right: 20px;
+    max-width: 150px; /* Largeur maximale du logo pour s'assurer qu'il ne soit pas trop grand */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
 .header-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    padding: 10px 50px; /* Ajouté un padding pour ne pas que le contenu touche les bords */
+    width: 100%; /* Largeur complète pour centrer le titre et la recherche */
 }
 
 h1 {
     font-size: 24px;
     color: #333;
+    margin: 0; /* Suppression de la marge par défaut */
 }
 
 .search-and-select {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    margin-top: 20px; /* Espacement après le titre */
 }
 
-#searchInput {
+#searchInput, #data-selector {
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #dddddd;
     border-radius: 20px;
     background-color: #fafafa;
-    margin-right: 20px;
-}
-
-#data-selector {
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 20px;
+    margin: 0 10px; /* Espace entre la barre de recherche et le sélecteur */
 }
 
 .download-button {
@@ -70,12 +65,16 @@ h1 {
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
 }
 
 table {
     width: 90%;
-    margin: 160px auto 40px; /* Adjusted margin-top to prevent overlap with header */
+    margin: 140px auto 40px; /* Espace en haut ajusté pour éviter le chevauchement */
     border-collapse: collapse;
 }
 
@@ -90,17 +89,17 @@ th {
     background-color: #eeeeee;
 }
 
+/* Responsive design pour les petits écrans */
 @media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        position: static; /* Pour les petits écrans, le logo reprend un comportement normal */
+    }
+
     .header-main {
-        flex-direction: column;
-    }
-
-    .search-and-select {
-        flex-direction: column;
-        margin: 10px 0;
-    }
-
-    .download-button {
-        margin-top: 10px;
+        padding: 10px; /* Padding plus petit pour les petits écrans */
     }
 }
