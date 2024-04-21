@@ -8,7 +8,7 @@ body, html {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Cela répartit les éléments de l'en-tête */
     position: fixed;
     top: 0;
     left: 0;
@@ -19,19 +19,20 @@ body, html {
 }
 
 .logo {
-    max-width: 100px; /* Contrôle la taille du logo */
+    max-width: 100px;
     height: auto;
     margin-left: 20px;
 }
 
 .header-title {
     flex-grow: 1;
-    text-align: center;
+    text-align: center; /* Cela centre le titre dans la partie jaune */
 }
 
 #searchInput {
-    width: 50%; /* Largeur de la barre de recherche */
-    margin: 0 auto; /* Centre la barre de recherche */
+    width: 50%;
+    margin-right: auto; /* Centre la barre de recherche à droite */
+    margin-left: auto; /* Centre la barre de recherche à gauche */
     padding: 10px;
     font-size: 16px;
     border-radius: 20px;
@@ -40,10 +41,13 @@ body, html {
 }
 
 .data-selector-container {
-    position: absolute;
-    right: 20px; /* Position à droite */
+    margin-right: auto; /* Centre le sélecteur à droite */
+    margin-left: auto; /* Centre le sélecteur à gauche */
+    position: relative; /* Modifié pour être relatif au parent */
     top: 50%;
     transform: translateY(-50%);
+    display: flex; /* Utilise flex pour centrer les éléments */
+    justify-content: center; /* Centre horizontalement dans le flex container */
 }
 
 #data-selector {
@@ -55,7 +59,7 @@ body, html {
 .download-button {
     position: absolute;
     left: 50%;
-    bottom: -30px; /* Position en dessous de la barre de recherche */
+    bottom: -30px;
     transform: translateX(-50%);
     padding: 10px 20px;
     background-color: #007bff;
@@ -66,7 +70,7 @@ body, html {
 
 table {
     width: 90%;
-    margin: 180px auto 40px; /* Ajuste la marge en haut pour l'entête */
+    margin: 180px auto 40px;
     border-collapse: collapse;
 }
 
@@ -84,20 +88,18 @@ th {
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
+        align-items: center; /* Cela assure que les éléments sont centrés verticalement sur mobile */
     }
 
     #searchInput {
-        width: 80%; /* Largeur de la barre de recherche sur mobile */
+        width: 80%;
     }
 
     .data-selector-container {
-        position: static;
         order: 3;
     }
 
     .download-button {
-        position: static;
-        margin: 10px auto;
         order: 4;
     }
 }
