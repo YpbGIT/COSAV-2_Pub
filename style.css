@@ -7,8 +7,9 @@ body, html {
 
 .header-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Changement pour espacer les éléments */
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,64 +17,53 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 10px; /* Ajout de padding pour éviter que le contenu touche les bords */
 }
 
 .logo-container {
-    position: absolute;
-    left: 10px;
-    top: 10px;
+    align-self: flex-start; /* Position à gauche */
+    padding: 10px; /* Espace autour du logo */
 }
 
 .logo {
-    max-width: 100px; /* Ajusté pour une meilleure apparence */
-    max-height: 80px; /* Hauteur maximale pour le logo */
+    max-width: 100px;
+    max-height: 80px;
     width: auto;
     height: auto;
 }
 
-.header-main {
-    display: flex;
-    justify-content: center; /* Centrer le titre et la barre de recherche */
-    flex-grow: 1; /* Permet au conteneur de grandir pour remplir l'espace */
-}
-
-h1 {
+.header-title {
+    margin: 0;
     font-size: 24px;
     color: #333;
-    margin: 0 20px; /* Ajout d'espace de chaque côté du titre */
-}
-
-.search-and-select {
-    display: flex;
-    align-items: center;
-    position: relative; /* Position relative pour le placement précis des éléments */
 }
 
 #searchInput {
+    margin-top: 10px;
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #dddddd;
     border-radius: 20px;
     background-color: #fafafa;
-    flex-grow: 1; /* Permet à la barre de recherche de grandir et de remplir l'espace disponible */
-    margin: 0 20px; /* Ajout d'espace de chaque côté de la barre de recherche */
+    width: calc(100% - 240px); /* Largeur ajustée pour tenir compte du padding et des boutons */
+    max-width: 600px; /* Largeur maximale pour éviter que la barre ne soit trop longue */
 }
 
 #data-selector {
-    position: absolute; /* Position absolue pour placer le sélecteur où on le souhaite */
-    left: 0; /* Aligné à gauche de l'espace disponible */
-    top: 50%;
-    transform: translateY(-50%); /* Centrer verticalement par rapport au conteneur */
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 20px;
 }
 
 .download-button {
     padding: 10px 20px;
+    margin-top: 10px;
     background-color: #007bff;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.2s;
+    align-self: flex-end; /* Position à droite */
 }
 
 .download-button:hover {
@@ -82,7 +72,7 @@ h1 {
 
 table {
     width: 90%;
-    margin: 160px auto 40px; /* Marge supérieure ajustée */
+    margin: 180px auto 40px; /* Marge pour éviter le chevauchement avec l'en-tête */
     border-collapse: collapse;
 }
 
@@ -97,37 +87,18 @@ th {
     background-color: #eeeeee;
 }
 
-/* Responsive design pour les petits écrans */
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
     }
 
-    .logo-container {
-        position: static; /* Le logo reprend un comportement normal sur les petits écrans */
-    }
-
-    .header-main {
-        padding: 10px;
-    }
-
-    .search-and-select {
-        flex-direction: column;
-        position: static; /* Rétablir le positionnement normal */
-    }
-
-    #searchInput {
-        width: 100%; /* Permet à la barre de recherche de s'étendre sur toute la largeur */
+    #searchInput, #data-selector, .download-button {
+        width: 90%;
         margin: 10px 0;
     }
 
-    #data-selector {
-        width: 100%; /* Permet au sélecteur de s'étendre sur toute la largeur */
-        margin: 10px 0;
-    }
-
-    .download-button {
-        width: 100%; /* Permet au bouton de s'étendre sur toute la largeur */
-        margin: 10px 0;
+    .logo {
+        max-width: 80px;
+        max-height: 60px;
     }
 }
