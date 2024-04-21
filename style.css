@@ -7,9 +7,8 @@ body, html {
 
 .header-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,57 +16,57 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 10px 0;
 }
 
 .logo {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    max-height: 80px;
-    width: auto;
+    max-width: 100px; /* Contrôle la taille du logo */
+    height: auto;
+    margin-left: 20px;
 }
 
-h1 {
-    margin-top: 20px; /* Ajout d'un espace en haut pour le titre */
-}
-
-.search-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 10px; /* Espace entre le titre et la barre de recherche */
+.header-title {
+    flex-grow: 1;
+    text-align: center;
 }
 
 #searchInput {
-    padding: 10px 20px;
+    width: 50%; /* Largeur de la barre de recherche */
+    margin: 0 auto; /* Centre la barre de recherche */
+    padding: 10px;
     font-size: 16px;
-    border: 2px solid #dddddd;
     border-radius: 20px;
+    border: 2px solid #dddddd;
     background-color: #fafafa;
-    margin-bottom: 10px; /* Espace en dessous de la barre de recherche */
 }
 
-.download-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px; /* Espace en dessus du bouton */
-}
-
-#data-selector {
+.data-selector-container {
     position: absolute;
-    right: 10px;
+    right: 20px; /* Position à droite */
     top: 50%;
     transform: translateY(-50%);
 }
 
+#data-selector {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.download-button {
+    position: absolute;
+    left: 50%;
+    bottom: -30px; /* Position en dessous de la barre de recherche */
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 table {
     width: 90%;
-    margin: 220px auto 40px; /* Augmentation de la marge supérieure pour éviter le chevauchement avec l'entête */
+    margin: 180px auto 40px; /* Ajuste la marge en haut pour l'entête */
     border-collapse: collapse;
 }
 
@@ -85,34 +84,20 @@ th {
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
-        position: static;
-        padding: 20px;
-    }
-
-    .logo, #data-selector {
-        position: static;
-        order: 1; /* Le logo revient en premier dans le flux normal */
-        margin: 0 auto; /* Centre le logo */
-    }
-
-    .search-container {
-        flex-direction: column;
-        width: auto;
-    }
-
-    h1 {
-        order: 2; /* Le titre vient après le logo */
     }
 
     #searchInput {
-        order: 3; /* La barre de recherche vient ensuite */
-        width: 100%;
-        margin: 10px 0;
+        width: 80%; /* Largeur de la barre de recherche sur mobile */
+    }
+
+    .data-selector-container {
+        position: static;
+        order: 3;
     }
 
     .download-button {
-        order: 4; /* Le bouton vient en dernier */
-        width: 100%;
-        margin: 10px 0;
+        position: static;
+        margin: 10px auto;
+        order: 4;
     }
 }
