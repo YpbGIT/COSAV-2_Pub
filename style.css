@@ -63,7 +63,7 @@ body, html {
     text-decoration: none;
     transition: background-color 0.2s;
     position: absolute; /* Position absolue pour placer le bouton */
-    left: 10px; /* Ajuster selon la maquette */
+    right: 10px; /* Ajuster selon la maquette */
     bottom: 10px; /* Ajuster selon la maquette */
 }
 
