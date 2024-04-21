@@ -7,7 +7,7 @@ body, html {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
@@ -16,22 +16,22 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
-.logo {
-    max-width: 150px;
-    height: auto;
+#data-selector {
+    margin-right: auto;
+    margin-left: 20px;
 }
 
 h1 {
-    margin-left: 20px; /* Ajout pour l'espacement après le logo */
     font-size: 24px;
     color: #333;
+    padding: 0 20px;
 }
 
 #searchInput {
-    width: 40%;
+    width: 300px;
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #dddddd;
@@ -39,18 +39,25 @@ h1 {
     background-color: #fafafa;
 }
 
-/* Styles supplémentaires pour le sélecteur de données */
-#data-selector {
-    position: absolute; /* Changé de fixed à absolute */
-    top: 70px; /* Position ajustée */
-    left: 50%; /* Centrage */
-    transform: translateX(-50%); /* Centrage précis */
-    z-index: 1001; /* S'assurer qu'il est au-dessus des autres éléments */
+.download-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.logo {
+    margin-left: 20px;
+    max-width: 150px;
+    height: auto;
 }
 
 table {
     width: 90%;
-    margin: 120px auto 40px;
+    margin: 100px auto 40px;
     border-collapse: collapse;
 }
 
@@ -65,19 +72,12 @@ th {
     background-color: #eeeeee;
 }
 
-.download-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    display: block; /* Rendre le lien comme un bloc pour la largeur */
-    width: 200px; /* Largeur spécifique */
-    text-align: center; /* Centrer le texte */
-    margin: 20px auto; /* Centrage horizontal */
-    transition: background-color 0.2s ease-in-out;
-}
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
 
-.download-button:hover {
-    background-color: #0056b3;
+    #data-selector, .download-button, #searchInput {
+        margin: 10px 0;
+    }
 }

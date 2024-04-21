@@ -7,17 +7,19 @@
 </head>
 <body>
     <div class="header-container">
+        <select id="data-selector" onchange="loadDataSet(this.value)">
+            <option value="Data_1">Data Set 1</option>
+            <option value="Data_2">Data Set 2</option>
+            <option value="Data_3">Data Set 3</option>
+        </select>
+        <h1>COSAV-1: Visualisation des Données</h1>
+        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Recherche...">
+        <a href="https://github.com/YpbGIT/COSAV2-Pub/raw/main/Data/Donn%C3%A9es%20FNSO_V3%20(3).xlsx" class="download-button" download>Télécharger les Données</a>
         <a href="https://itic.www.univ-montp3.fr/fr/itic" target="_blank">
             <img src="./img/ITIC_logo_noir1.png" alt="ITIC Logo" class="logo"/>
         </a>
-        <h1>COSAV-1: Visualisation des Données</h1>
-        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Recherche...">
     </div>
-    <select id="data-selector" onchange="loadDataSet(this.value)">
-        <option value="Data_1">Data Set 1</option>
-        <option value="Data_2">Data Set 2</option>
-        <option value="Data_3">Data Set 3</option>
-    </select>
+    
     <table id="data-table">
         <thead id="table-head">
             <!-- Les en-têtes de colonnes seront générés dynamiquement -->
@@ -26,7 +28,7 @@
             <!-- Les données du tableau seront générées dynamiquement -->
         </tbody>
     </table>
-    <a href="https://github.com/YpbGIT/COSAV2-Pub/raw/main/Data/Donn%C3%A9es%20FNSO_V3%20(3).xlsx" class="download-button" download>Télécharger les Données</a>
+    
     <script src="script.js"></script>
 </body>
 </html>
