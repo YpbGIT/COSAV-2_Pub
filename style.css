@@ -22,7 +22,7 @@ body, html {
 .logo {
     max-width: 100px;
     height: auto;
-    position: absolute; /* Positionner le logo absolument */
+    position: absolute; /* Positionner le logo en absolut */
     left: 10px; /* Ajuster en fonction de la taille exacte du logo */
     top: 10px;
 }
