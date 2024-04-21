@@ -13,21 +13,17 @@
         <h1>COSAV-1: Visualisation des Données</h1>
         <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Recherche...">
     </div>
-    <select id="data-selector" onchange="loadData(this.value)">
-        <option value="Data_1.json">Data Set 1</option>
-        <option value="Data_2.json">Data Set 2</option>
-        <option value="Data_3.json">Data Set 3</option>
+    <select id="data-selector" onchange="loadDataSet(this.value)">
+        <option value="Data_1">Data Set 1</option>
+        <option value="Data_2">Data Set 2</option>
+        <option value="Data_3">Data Set 3</option>
     </select>
-    <table id="dataTable">
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Email</th>
-                <th>Pays</th>
-            </tr>
+    <table id="data-table">
+        <thead id="table-head">
+            <!-- Les en-têtes de colonnes seront générés dynamiquement -->
         </thead>
-        <tbody>
-            <!-- Les données du tableau seront insérées ici -->
+        <tbody id="table-body">
+            <!-- Les données du tableau seront générées dynamiquement -->
         </tbody>
     </table>
     <script src="script.js"></script>
