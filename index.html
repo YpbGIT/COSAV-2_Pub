@@ -1,43 +1,27 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Données de Projets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header-container">
-        <a href="https://itic.www.univ-montp3.fr/fr" target="_blank">
-            <img src="img/ITIC_logo_noir1.png" alt="Logo ITIC" style="position: absolute; top: 20px; left: 20px; height: 80px;">
-        </a>
-        <h1>Données de Projets</h1>
-        <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Recherche...">
-    </div>
+    <select id="menu">
+        <option value="data.json">Default Data</option>
+        <option value="Focus_acteur_feuille.json">Focus Acteur Data</option>
+        <option value="Data_FNSO_feuille.json">Data FNSO</option>
+        <option value="Focus_Institution_Feuille.json">Focus Institution</option>
+    </select>
+    <input type="text" id="searchInput" onkeyup="filterData()" placeholder="Search for names..">
     <table id="dataTable">
         <thead>
-            <tr>
-                <th>Nom de Projet</th>
-                <th>Porteur de Projet</th>
-                <th>Volet de l'appel</th>
-                <th>Edition FNSO</th>
-                <th>Partenaire Projet</th>
-                <th>Représentant Projet</th>
-                <th>Montant Alloué</th>
-                <th>Durée de Projet</th>
-                <th>Perimètre Projet</th>
-                <th>Technologies/Outils avancés</th>
-                <th>Provenance Technologies</th>
-            </tr>
+            <tr><th>Name</th><th>Email</th><th>Country</th></tr>
         </thead>
         <tbody>
-            <!-- Les données sont insérées ici par le JavaScript -->
+            <!-- Data will be loaded here -->
         </tbody>
     </table>
-    <div class="download-container">
-        <a href="https://github.com/YpbGIT/COSAV1-pub/raw/main/Data/Collecte%20de%20donn%C3%A9es%20communication%20savante%20%20(r%C3%A9ponses)%20(3).xlsx" class="download-button">
-            Télécharger les données
-        </a>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
