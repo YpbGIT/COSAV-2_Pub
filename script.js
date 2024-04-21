@@ -8,12 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(`./Chargeur_Json/${dataSetName}.json`)
         .then(response => response.json())
         .then(data => {
-            tableHead.innerHTML = ''; // Réinitialiser l'en-tête du tableau
-            tableBody.innerHTML = ''; // Réinitialiser le corps du tableau
+            // Réinitialiser l'en-tête et le corps du tableau
+            tableHead.innerHTML = '';
+            tableBody.innerHTML = '';
+
+            // Déterminer les clés à partir du premier objet (supposé que tous les objets ont les mêmes clés)
+            const keys = Object.keys(data[0]);
 
             // Créer et insérer les en-têtes du tableau
             const headerRow = tableHead.insertRow();
-            Object.keys(data[0]).forEach(key => {
+            keys.forEach(key => {
                 const headerCell = document.createElement('th');
                 headerCell.textContent = key;
                 headerRow.appendChild(headerCell);
@@ -22,19 +26,21 @@ document.addEventListener("DOMContentLoaded", function() {
             // Créer et insérer les données dans le tableau
             data.forEach(item => {
                 const row = tableBody.insertRow();
-                Object.keys(item).forEach(key => {
+                keys.forEach(key => {
                     const cell = row.insertCell();
-                    cell.textContent = item[key];
+                    // Insérer la valeur de la clé si elle existe, sinon insérer une chaîne vide
+                    cell.textContent = key in item ? item[key] : '';
                 });
             });
         })
         .catch(error => {
             console.error('Error loading data:', error);
-            tableBody.innerHTML = `<tr><td colspan="3">Erreur lors du chargement des données.</td></tr>`;
+            // Afficher une ligne d'erreur qui s'étend sur toutes les colonnes
+            tableBody.innerHTML = `<tr><td colspan="${keys.length}">Erreur lors du chargement des données.</td></tr>`;
         });
     };
 
-    // Fonction de filtrage de la recherche
+    // Fonction de filtrage pour la recherche
     window.filterData = function() {
         const filter = searchInput.value.toUpperCase();
         const rows = tableBody.getElementsByTagName('tr');
@@ -43,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let visible = false;
             const cells = rows[i].getElementsByTagName('td');
             for (let j = 0; j < cells.length; j++) {
-                if (cells[j].textContent.toUpperCase().indexOf(filter) > -1) {
+                if (cells[j].textContent.toUpperCase().includes(filter)) {
                     visible = true;
                     break;
                 }
@@ -52,6 +58,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // Chargez le premier ensemble de données par défaut
+    // Charger le premier ensemble de données par défaut
     loadDataSet('Data_1');
 });
