@@ -8,7 +8,7 @@ body, html {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Changement pour espacer les éléments */
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +16,7 @@ body, html {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
+    padding: 10px; /* Ajout de padding pour éviter que le contenu touche les bords */
 }
 
 .logo-container {
@@ -26,30 +27,27 @@ body, html {
 
 .logo {
     max-width: 100px; /* Ajusté pour une meilleure apparence */
+    max-height: 80px; /* Hauteur maximale pour le logo */
+    width: auto;
     height: auto;
 }
 
 .header-main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 50px;
-    width: calc(100% - 200px); /* Ajusté pour tenir compte de l'espace pris par le logo et le sélecteur */
+    justify-content: center; /* Centrer le titre et la barre de recherche */
+    flex-grow: 1; /* Permet au conteneur de grandir pour remplir l'espace */
 }
 
 h1 {
     font-size: 24px;
     color: #333;
-    margin: 0;
+    margin: 0 20px; /* Ajout d'espace de chaque côté du titre */
 }
 
 .search-and-select {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%; /* Utilise la largeur complète pour aligner les éléments */
-    padding: 0 20px; /* Ajout d'un peu de padding */
-    box-sizing: border-box; /* Pour inclure le padding dans la largeur */
+    position: relative; /* Position relative pour le placement précis des éléments */
 }
 
 #searchInput {
@@ -58,12 +56,15 @@ h1 {
     border: 2px solid #dddddd;
     border-radius: 20px;
     background-color: #fafafa;
-    margin-right: 20px; /* Espace entre la barre de recherche et le sélecteur */
-    width: 50%; /* Largeur fixe pour la barre de recherche */
+    flex-grow: 1; /* Permet à la barre de recherche de grandir et de remplir l'espace disponible */
+    margin: 0 20px; /* Ajout d'espace de chaque côté de la barre de recherche */
 }
 
 #data-selector {
-    margin-left: 20px; /* Espace entre le sélecteur et le reste */
+    position: absolute; /* Position absolue pour placer le sélecteur où on le souhaite */
+    left: 0; /* Aligné à gauche de l'espace disponible */
+    top: 50%;
+    transform: translateY(-50%); /* Centrer verticalement par rapport au conteneur */
 }
 
 .download-button {
@@ -81,7 +82,7 @@ h1 {
 
 table {
     width: 90%;
-    margin: 180px auto 40px; /* Augmentation de la marge supérieure */
+    margin: 160px auto 40px; /* Marge supérieure ajustée */
     border-collapse: collapse;
 }
 
@@ -100,34 +101,33 @@ th {
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
-        padding: 10px;
     }
 
     .logo-container {
-        position: static;
+        position: static; /* Le logo reprend un comportement normal sur les petits écrans */
     }
 
     .header-main {
-        width: auto;
         padding: 10px;
     }
 
     .search-and-select {
         flex-direction: column;
-        padding: 10px;
+        position: static; /* Rétablir le positionnement normal */
     }
 
     #searchInput {
-        width: auto; /* Pour les petits écrans, permet à la barre de recherche d'être plus flexible */
+        width: 100%; /* Permet à la barre de recherche de s'étendre sur toute la largeur */
         margin: 10px 0;
     }
 
     #data-selector {
-        width: auto;
+        width: 100%; /* Permet au sélecteur de s'étendre sur toute la largeur */
         margin: 10px 0;
     }
 
     .download-button {
+        width: 100%; /* Permet au bouton de s'étendre sur toute la largeur */
         margin: 10px 0;
     }
 }
