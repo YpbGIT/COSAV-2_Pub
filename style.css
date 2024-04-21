@@ -19,9 +19,8 @@ body, html {
     padding: 10px 20px;
 }
 
-.logo {
-    max-width: 150px;
-    height: auto;
+.header-container img {
+    max-height: 80px; /* Ajustez la taille selon votre besoin */
 }
 
 h1 {
@@ -29,20 +28,30 @@ h1 {
     color: #333;
     margin: 0;
     font-size: 24px;
+    padding-left: 90px; /* Ajouté pour tenir compte de l'espace du logo */
 }
 
 #searchInput {
-    width: 60%;
+    width: calc(100% - 180px); /* Ajusté pour tenir compte du logo et du sélecteur de dataset */
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #dddddd;
     border-radius: 20px;
     background-color: #fafafa;
+    margin-left: 90px; /* Ajouté pour pousser la recherche vers la droite et éviter le chevauchement avec le logo */
+}
+
+#data-selector {
+    position: fixed;
+    left: 20px;
+    top: 120px; /* Ajusté pour se situer sous la barre de recherche */
+    padding: 10px;
+    font-size: 16px;
 }
 
 table {
     width: 90%;
-    margin: 120px auto 40px;
+    margin: 160px auto 40px; /* Ajusté pour laisser de l'espace en haut pour l'entête */
     border-collapse: collapse;
 }
 
@@ -57,10 +66,4 @@ th {
     background-color: #eeeeee;
 }
 
-#data-selector {
-    position: fixed;
-    left: 20px;
-    top: 80px;
-    padding: 10px;
-    font-size: 16px;
-}
+/* Reste de votre CSS si nécessaire */
